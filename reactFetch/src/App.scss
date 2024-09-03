@@ -38,6 +38,7 @@ body{
   img{
     width: 10vw;
     height: 10vw;
+    transition: 700ms ease-in-out;
   }
 
   select{
@@ -85,6 +86,7 @@ body{
 
 .light{
   background-color: rgb(152, 152, 248);
+  transition: 300ms ease-in-out;
 
   img{
     filter: brightness(0) saturate(100%) invert(20%) sepia(5%) saturate(0%) hue-rotate(153deg) brightness(80%) contrast(98%);
@@ -104,6 +106,7 @@ body{
 
 .dark{
   background-color: rgb(50, 50, 50);
+  transition: 300ms ease-in-out;
 
   img{
     filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(367%) hue-rotate(11deg) brightness(118%) contrast(100%);
